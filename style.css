@@ -1,41 +1,105 @@
+/* ///////////// GLOBAIS ////////////////// */
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #95A3C2;
-    text-align: center;
-}
-#nome {
-    text-align: center;
-    margin-top: 2em;
-    color: #00217c;
-}
-#fotopessoal {
-    text-align: center;
-    border-radius: 10em;
-    width: 15em;
+    margin: 0;
+    padding: 0;
 }
 
-#habilidades {
-    color: #00217c;
-    font-weight: bold;
-}
-#indice {
-    text-decoration: none;
-}
 a {
     color: #00217c;
     text-decoration: none;
     font-weight: bold;
 }
-#trybe {
-    color: #143f19;
+a:hover {
+    color:aquamarine;
 }
-footer {
-    color:#00217c;
-    margin-top: 15em;
+
+/* ///////////// HEADER ////////////////// */
+#header h1 {
+    text-align: center;
+    margin-top: 2em;
+    color: #00217c;
+}
+#header h1:hover {
+    color:cadetblue;
+}
+#header {
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+/* ///////////// FOTO E DESCRIÇÃO ////////////////// */
+
+#fotoPessoal {
+    text-align: center;
+    border-radius: 10em;
+    width: 15em;
+}
+#foto {
+    float: left;
+    margin-left: 33%;
+    padding: 10px;
+}
+#descricao {
+    text-align: center;
+    float: right;
+    margin-right: 29%;
+    margin-top: 13%;
+}
+.foto-descricao div {
+    margin-top: 8%;
+}
+/* ///////////// HABILIDADES ////////////////// */
+
+#habilidades {
+    color: #00217c;
+    font-weight: bold;
+    text-align: center;
+}
+#lista-habilidades {
+    margin-top: 28%;
+}
+#lista-habilidades p {
+    text-align: center;
+    margin-left: 1%;
+}
+/* ///////////// HABILIDADES + LIVRO-LINKEDIN ////////////////// */
+
+#livro-linkedin-div {
+    text-align: center;
+    padding: 1%;
+    margin-left: 1%;
+}
+#habilidades-livro-linkedin {
+    clear: both;
+}
+
+/* ///////////// LISTAS ////////////////// */
+
+ul li:nth-child(odd):hover {
+    color:lightgreen;
+}
+ul li:nth-child(even):hover {
+    color:darkgreen;
 }
 ul {
     list-style: none;
 }
+/* ///////////// FOOTER ////////////////// */
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color:#00217c;
+}
+
+/* ///////////// PALAVRAS ////////////////// */
+
 #trybe {
     color: #143f19;
+}
+#trybe:hover{
+    color:teal;
 }
